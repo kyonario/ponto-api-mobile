@@ -12,6 +12,7 @@
 	<groupId>com.kynario.dev</groupId>
 	<artifactId>Api_Ponto_Mobile</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>Ponto_Legal</name>
 	<description>Api para ponto eletrônico</description>
 	<properties>
