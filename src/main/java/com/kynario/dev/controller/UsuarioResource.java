@@ -75,6 +75,7 @@ public class UsuarioResource {
 		usuarioService.deleteById(id);
 		return ResponseEntity.noContent().build();
 	}
+	/*
 	@PostMapping(value = "baterponto/in/{id}")
 	public ResponseEntity<Object> baterPontoEntrada(@PathVariable Long id) {
 		
@@ -97,7 +98,7 @@ public class UsuarioResource {
 		Usuario user = usuarioOptional.get();
 		return ResponseEntity.status(HttpStatus.OK).body(usuarioService.save(user));
 		     
-		}
+		} 
 	/*	
 	@PostMapping(value = "baterponto/out/{id}")
 	public ResponseEntity<Object> baterPontoSaida(@PathVariable Long id) {
